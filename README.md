@@ -1,10 +1,10 @@
-# Project 4 — Dockerised Anomaly Detection API (MLOps)
+# Dockerised Anomaly Detection API (MLOps)
 
 A production-style ML pipeline: train an Isolation Forest model with MLflow tracking, then serve it via FastAPI, then containerise with Docker.
 
 ## Files
 ```
-project4_mlops/
+mlops/
 ├── train_model.py   ← Step 1: train & save the model
 ├── api.py           ← Step 2: FastAPI serving endpoint
 ├── test_api.py      ← Step 3: test the running API
@@ -15,9 +15,9 @@ project4_mlops/
 
 ---
 
-## How to run in VS Code
+## How to run 
 
-### Step 1 — Open folder in VS Code
+### Step 1 — Open folder 
 ```
 File → Open Folder → select project4_mlops
 ```
@@ -78,7 +78,7 @@ Or open http://localhost:8000/docs for interactive Swagger UI.
 
 ---
 
-## Docker (bonus — shows MLOps skill)
+## Docker 
 
 Make sure Docker Desktop is installed and running.
 
